@@ -62,12 +62,14 @@ int main() {
     //小数类型，双精度，放小数
     double name8 = 1.5;
     //字符类型，放字符，只能放一个字符
+
     char name9 = 'a';
     //截取一个字符
     char name10 = 'ab';
     cout << name10 << endl;
     //char放不下中文
     //char name7 = '中';
+    //只能用char数组 or string
     char name11[4] = "中";
     string name12 = "中";
 

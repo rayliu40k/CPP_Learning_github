@@ -143,32 +143,32 @@ CPP_Learning_github/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/build
 .PHONY : CPP_Learning_github/fast
 
-变量.o: 变量.cpp.o
+main.o: main.cpp.o
 
-.PHONY : 变量.o
+.PHONY : main.o
 
 # target to build an object file
-变量.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/变量.cpp.o
-.PHONY : 变量.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-变量.i: 变量.cpp.i
+main.i: main.cpp.i
 
-.PHONY : 变量.i
+.PHONY : main.i
 
 # target to preprocess a source file
-变量.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/变量.cpp.i
-.PHONY : 变量.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-变量.s: 变量.cpp.s
+main.s: main.cpp.s
 
-.PHONY : 变量.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-变量.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/变量.cpp.s
-.PHONY : 变量.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CPP_Learning_github"
-	@echo "... 变量.o"
-	@echo "... 变量.i"
-	@echo "... 变量.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

@@ -77,27 +77,27 @@ include CMakeFiles/CPP_Learning_github.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CPP_Learning_github.dir/flags.make
 
-CMakeFiles/CPP_Learning_github.dir/变量.cpp.o: CMakeFiles/CPP_Learning_github.dir/flags.make
-CMakeFiles/CPP_Learning_github.dir/变量.cpp.o: ../变量.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP_Learning_github.dir/变量.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP_Learning_github.dir/变量.cpp.o -c /Users/Rayliu40k/CLionProjects/CPP_Learning_github/变量.cpp
+CMakeFiles/CPP_Learning_github.dir/main.cpp.o: CMakeFiles/CPP_Learning_github.dir/flags.make
+CMakeFiles/CPP_Learning_github.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP_Learning_github.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP_Learning_github.dir/main.cpp.o -c /Users/Rayliu40k/CLionProjects/CPP_Learning_github/main.cpp
 
-CMakeFiles/CPP_Learning_github.dir/变量.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Learning_github.dir/变量.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Rayliu40k/CLionProjects/CPP_Learning_github/变量.cpp > CMakeFiles/CPP_Learning_github.dir/变量.cpp.i
+CMakeFiles/CPP_Learning_github.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Learning_github.dir/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Rayliu40k/CLionProjects/CPP_Learning_github/main.cpp > CMakeFiles/CPP_Learning_github.dir/main.cpp.i
 
-CMakeFiles/CPP_Learning_github.dir/变量.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Learning_github.dir/变量.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Rayliu40k/CLionProjects/CPP_Learning_github/变量.cpp -o CMakeFiles/CPP_Learning_github.dir/变量.cpp.s
+CMakeFiles/CPP_Learning_github.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Learning_github.dir/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Rayliu40k/CLionProjects/CPP_Learning_github/main.cpp -o CMakeFiles/CPP_Learning_github.dir/main.cpp.s
 
 # Object files for target CPP_Learning_github
 CPP_Learning_github_OBJECTS = \
-"CMakeFiles/CPP_Learning_github.dir/变量.cpp.o"
+"CMakeFiles/CPP_Learning_github.dir/main.cpp.o"
 
 # External object files for target CPP_Learning_github
 CPP_Learning_github_EXTERNAL_OBJECTS =
 
-CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/变量.cpp.o
+CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/main.cpp.o
 CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/build.make
 CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CPP_Learning_github"

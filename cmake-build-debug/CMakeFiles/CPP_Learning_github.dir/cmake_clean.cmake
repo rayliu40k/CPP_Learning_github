@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CPP_Learning_github.dir/变量.cpp.o"
+  "CMakeFiles/CPP_Learning_github.dir/main.cpp.o"
   "CPP_Learning_github"
   "CPP_Learning_github.pdb"
 )

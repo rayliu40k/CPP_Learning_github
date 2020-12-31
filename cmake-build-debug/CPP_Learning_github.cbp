@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/变量.cpp">
+		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/main.cpp">
 			<Option target="CPP_Learning_github"/>
 		</Unit>
 		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/CMakeLists.txt">
