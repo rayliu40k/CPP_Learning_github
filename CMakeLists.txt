@@ -3,4 +3,4 @@ project(CPP_Learning_github)
 
 set(CMAKE_CXX_STANDARD 98)
 
-add_executable(CPP_Learning_github main.cpp)
+add_executable(CPP_Learning_github main.cpp grammar/Variables.cpp grammar/Variables.h)

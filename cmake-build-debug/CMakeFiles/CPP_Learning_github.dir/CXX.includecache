@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/Rayliu40k/CLionProjects/CPP_Learning_github/main.cpp
+/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Variables.cpp
+Variables.h
+/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Variables.h
+
+/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Variables.h
 iostream
 -
 string
 -
+
+/Users/Rayliu40k/CLionProjects/CPP_Learning_github/main.cpp
+grammar/Variables.h
+/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Variables.h
 

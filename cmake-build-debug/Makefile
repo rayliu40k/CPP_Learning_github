@@ -143,6 +143,33 @@ CPP_Learning_github/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/build
 .PHONY : CPP_Learning_github/fast
 
+grammar/Variables.o: grammar/Variables.cpp.o
+
+.PHONY : grammar/Variables.o
+
+# target to build an object file
+grammar/Variables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Variables.cpp.o
+.PHONY : grammar/Variables.cpp.o
+
+grammar/Variables.i: grammar/Variables.cpp.i
+
+.PHONY : grammar/Variables.i
+
+# target to preprocess a source file
+grammar/Variables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Variables.cpp.i
+.PHONY : grammar/Variables.cpp.i
+
+grammar/Variables.s: grammar/Variables.cpp.s
+
+.PHONY : grammar/Variables.s
+
+# target to generate assembly for a file
+grammar/Variables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Variables.cpp.s
+.PHONY : grammar/Variables.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CPP_Learning_github"
+	@echo "... grammar/Variables.o"
+	@echo "... grammar/Variables.i"
+	@echo "... grammar/Variables.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

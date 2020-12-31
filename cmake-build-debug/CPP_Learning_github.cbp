@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Variables.cpp">
+			<Option target="CPP_Learning_github"/>
+		</Unit>
+		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Variables.h">
+			<Option target="CPP_Learning_github"/>
+		</Unit>
 		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/main.cpp">
 			<Option target="CPP_Learning_github"/>
 		</Unit>
