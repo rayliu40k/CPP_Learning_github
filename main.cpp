@@ -18,7 +18,7 @@ int main() {
     //函数
     int a = 25, b = 68;
     int num = max(a, b);
-    cout << "a和b中较大数为" << num;
+    cout << "a和b中较大数为" << num << endl;
 
     return 0;
 }
