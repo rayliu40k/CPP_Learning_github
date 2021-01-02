@@ -94,12 +94,12 @@ clean: CMakeFiles/CPP_Learning_github.dir/clean
 CMakeFiles/CPP_Learning_github.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target CPP_Learning_github"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target CPP_Learning_github"
 .PHONY : CMakeFiles/CPP_Learning_github.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CPP_Learning_github.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CPP_Learning_github.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/CPP_Learning_github.dir/rule

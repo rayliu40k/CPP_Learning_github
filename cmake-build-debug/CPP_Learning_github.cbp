@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Function.cpp">
+			<Option target="CPP_Learning_github"/>
+		</Unit>
+		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Function.h">
+			<Option target="CPP_Learning_github"/>
+		</Unit>
+		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Range.cpp">
+			<Option target="CPP_Learning_github"/>
+		</Unit>
+		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Range.h">
+			<Option target="CPP_Learning_github"/>
+		</Unit>
 		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Variables.cpp">
 			<Option target="CPP_Learning_github"/>
 		</Unit>

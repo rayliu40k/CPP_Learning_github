@@ -103,19 +103,49 @@ CMakeFiles/CPP_Learning_github.dir/grammar/Variables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Learning_github.dir/grammar/Variables.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Variables.cpp -o CMakeFiles/CPP_Learning_github.dir/grammar/Variables.cpp.s
 
+CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.o: CMakeFiles/CPP_Learning_github.dir/flags.make
+CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.o: ../grammar/Range.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.o -c /Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Range.cpp
+
+CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Range.cpp > CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.i
+
+CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Range.cpp -o CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.s
+
+CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.o: CMakeFiles/CPP_Learning_github.dir/flags.make
+CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.o: ../grammar/Function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.o -c /Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Function.cpp
+
+CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Function.cpp > CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.i
+
+CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Function.cpp -o CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.s
+
 # Object files for target CPP_Learning_github
 CPP_Learning_github_OBJECTS = \
 "CMakeFiles/CPP_Learning_github.dir/main.cpp.o" \
-"CMakeFiles/CPP_Learning_github.dir/grammar/Variables.cpp.o"
+"CMakeFiles/CPP_Learning_github.dir/grammar/Variables.cpp.o" \
+"CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.o" \
+"CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.o"
 
 # External object files for target CPP_Learning_github
 CPP_Learning_github_EXTERNAL_OBJECTS =
 
 CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/main.cpp.o
 CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/grammar/Variables.cpp.o
+CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.o
+CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.o
 CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/build.make
 CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CPP_Learning_github"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CPP_Learning_github"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CPP_Learning_github.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

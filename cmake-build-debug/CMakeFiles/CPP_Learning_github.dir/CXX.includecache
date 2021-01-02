@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Variables.cpp
-Variables.h
-/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Variables.h
+/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Function.h
+iostream
+-
+
+/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Range.h
+iostream
+-
 
 /Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Variables.h
 iostream
@@ -19,4 +23,8 @@ string
 /Users/Rayliu40k/CLionProjects/CPP_Learning_github/main.cpp
 grammar/Variables.h
 /Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Variables.h
+grammar/Range.h
+/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Range.h
+grammar/Function.h
+/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Function.h
 

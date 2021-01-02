@@ -1,11 +1,10 @@
-//
-// Created by Rayliu40k on 2020/12/31.
-//
-
 #include "Variables.h"
 
-void Variables::show() {
-    
+/**
+ * 展示变量
+ */
+void variables() {
+
     /**
     * 定义变量
     */

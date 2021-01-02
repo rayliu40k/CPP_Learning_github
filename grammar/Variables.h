@@ -1,6 +1,6 @@
-//
-// Created by Rayliu40k on 2020/12/31.
-//
+/**
+ * 变量
+ */
 
 #ifndef CPP_LEARNING_GITHUB_VARIABLES_H
 #define CPP_LEARNING_GITHUB_VARIABLES_H
@@ -9,20 +9,15 @@
 #include <iostream>
 #include <string>
 
-//引入命名空间里面的资源（变量、方法）
+//引入命名空间里面的资源（变量、函数）
 using std::cout;
 using std::endl;
 using std::string;
 
 /**
- * 变量类
+ * 展示变量
  */
-class Variables {
-public:
-    /**
-     * 显示函数
-     */
-    void show();
-};
+void variables();
+
 
 #endif //CPP_LEARNING_GITHUB_VARIABLES_H

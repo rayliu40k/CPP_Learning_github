@@ -143,6 +143,60 @@ CPP_Learning_github/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/build
 .PHONY : CPP_Learning_github/fast
 
+grammar/Function.o: grammar/Function.cpp.o
+
+.PHONY : grammar/Function.o
+
+# target to build an object file
+grammar/Function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.o
+.PHONY : grammar/Function.cpp.o
+
+grammar/Function.i: grammar/Function.cpp.i
+
+.PHONY : grammar/Function.i
+
+# target to preprocess a source file
+grammar/Function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.i
+.PHONY : grammar/Function.cpp.i
+
+grammar/Function.s: grammar/Function.cpp.s
+
+.PHONY : grammar/Function.s
+
+# target to generate assembly for a file
+grammar/Function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.s
+.PHONY : grammar/Function.cpp.s
+
+grammar/Range.o: grammar/Range.cpp.o
+
+.PHONY : grammar/Range.o
+
+# target to build an object file
+grammar/Range.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.o
+.PHONY : grammar/Range.cpp.o
+
+grammar/Range.i: grammar/Range.cpp.i
+
+.PHONY : grammar/Range.i
+
+# target to preprocess a source file
+grammar/Range.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.i
+.PHONY : grammar/Range.cpp.i
+
+grammar/Range.s: grammar/Range.cpp.s
+
+.PHONY : grammar/Range.s
+
+# target to generate assembly for a file
+grammar/Range.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.s
+.PHONY : grammar/Range.cpp.s
+
 grammar/Variables.o: grammar/Variables.cpp.o
 
 .PHONY : grammar/Variables.o
@@ -206,6 +260,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CPP_Learning_github"
+	@echo "... grammar/Function.o"
+	@echo "... grammar/Function.i"
+	@echo "... grammar/Function.s"
+	@echo "... grammar/Range.o"
+	@echo "... grammar/Range.i"
+	@echo "... grammar/Range.s"
 	@echo "... grammar/Variables.o"
 	@echo "... grammar/Variables.i"
 	@echo "... grammar/Variables.s"
