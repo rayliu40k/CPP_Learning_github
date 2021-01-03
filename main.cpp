@@ -4,9 +4,19 @@
 #include "grammar/Function.h"
 
 /**
+ * 本地函数
+ */
+void demo() {
+    cout << "Hello World" << endl;
+}
+
+/**
  * 主方法（程序入口）
  */
 int main() {
+    //本地函数
+    demo();
+
     //变量
     variables();
 
