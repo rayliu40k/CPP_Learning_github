@@ -19,5 +19,4 @@ using std::string;
  */
 void variables();
 
-
 #endif //CPP_LEARNING_GITHUB_VARIABLES_H
