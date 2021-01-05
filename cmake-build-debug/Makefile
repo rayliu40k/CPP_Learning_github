@@ -143,32 +143,59 @@ CPP_Learning_github/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/build
 .PHONY : CPP_Learning_github/fast
 
-grammar/Calc.o: grammar/Calc.cpp.o
+grammar/Condition.o: grammar/Condition.cpp.o
 
-.PHONY : grammar/Calc.o
+.PHONY : grammar/Condition.o
 
 # target to build an object file
-grammar/Calc.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Calc.cpp.o
-.PHONY : grammar/Calc.cpp.o
+grammar/Condition.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Condition.cpp.o
+.PHONY : grammar/Condition.cpp.o
 
-grammar/Calc.i: grammar/Calc.cpp.i
+grammar/Condition.i: grammar/Condition.cpp.i
 
-.PHONY : grammar/Calc.i
+.PHONY : grammar/Condition.i
 
 # target to preprocess a source file
-grammar/Calc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Calc.cpp.i
-.PHONY : grammar/Calc.cpp.i
+grammar/Condition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Condition.cpp.i
+.PHONY : grammar/Condition.cpp.i
 
-grammar/Calc.s: grammar/Calc.cpp.s
+grammar/Condition.s: grammar/Condition.cpp.s
 
-.PHONY : grammar/Calc.s
+.PHONY : grammar/Condition.s
 
 # target to generate assembly for a file
-grammar/Calc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Calc.cpp.s
-.PHONY : grammar/Calc.cpp.s
+grammar/Condition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Condition.cpp.s
+.PHONY : grammar/Condition.cpp.s
+
+grammar/Constant.o: grammar/Constant.cpp.o
+
+.PHONY : grammar/Constant.o
+
+# target to build an object file
+grammar/Constant.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Constant.cpp.o
+.PHONY : grammar/Constant.cpp.o
+
+grammar/Constant.i: grammar/Constant.cpp.i
+
+.PHONY : grammar/Constant.i
+
+# target to preprocess a source file
+grammar/Constant.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Constant.cpp.i
+.PHONY : grammar/Constant.cpp.i
+
+grammar/Constant.s: grammar/Constant.cpp.s
+
+.PHONY : grammar/Constant.s
+
+# target to generate assembly for a file
+grammar/Constant.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Constant.cpp.s
+.PHONY : grammar/Constant.cpp.s
 
 grammar/Function.o: grammar/Function.cpp.o
 
@@ -196,6 +223,33 @@ grammar/Function.s: grammar/Function.cpp.s
 grammar/Function.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.s
 .PHONY : grammar/Function.cpp.s
+
+grammar/Loop.o: grammar/Loop.cpp.o
+
+.PHONY : grammar/Loop.o
+
+# target to build an object file
+grammar/Loop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Loop.cpp.o
+.PHONY : grammar/Loop.cpp.o
+
+grammar/Loop.i: grammar/Loop.cpp.i
+
+.PHONY : grammar/Loop.i
+
+# target to preprocess a source file
+grammar/Loop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Loop.cpp.i
+.PHONY : grammar/Loop.cpp.i
+
+grammar/Loop.s: grammar/Loop.cpp.s
+
+.PHONY : grammar/Loop.s
+
+# target to generate assembly for a file
+grammar/Loop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Loop.cpp.s
+.PHONY : grammar/Loop.cpp.s
 
 grammar/Range.o: grammar/Range.cpp.o
 
@@ -287,12 +341,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CPP_Learning_github"
-	@echo "... grammar/Calc.o"
-	@echo "... grammar/Calc.i"
-	@echo "... grammar/Calc.s"
+	@echo "... grammar/Condition.o"
+	@echo "... grammar/Condition.i"
+	@echo "... grammar/Condition.s"
+	@echo "... grammar/Constant.o"
+	@echo "... grammar/Constant.i"
+	@echo "... grammar/Constant.s"
 	@echo "... grammar/Function.o"
 	@echo "... grammar/Function.i"
 	@echo "... grammar/Function.s"
+	@echo "... grammar/Loop.o"
+	@echo "... grammar/Loop.i"
+	@echo "... grammar/Loop.s"
 	@echo "... grammar/Range.o"
 	@echo "... grammar/Range.i"
 	@echo "... grammar/Range.s"
