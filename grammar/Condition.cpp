@@ -123,5 +123,5 @@ void condition2() {
  */
 void condition3() {
     int sun = 0;
-    sun > 0 ? cout << "Good Day" : cout << "Bad Day";
+    sun > 0 ? cout << "Good Day" : cout << "Bad Day" << endl;
 }
