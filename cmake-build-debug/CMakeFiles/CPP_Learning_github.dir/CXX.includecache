@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Condition.cpp
-Condition.h
-/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Condition.h
+/Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/打印图形/sb.cpp
+sb.h
+/Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/打印图形/sb.h
 
-/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Condition.h
+/Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/打印图形/sb.h
 iostream
--
-string
 -
 

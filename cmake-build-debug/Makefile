@@ -332,6 +332,60 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+practice/打印图形/Triangle.o: practice/打印图形/Triangle.cpp.o
+
+.PHONY : practice/打印图形/Triangle.o
+
+# target to build an object file
+practice/打印图形/Triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.o
+.PHONY : practice/打印图形/Triangle.cpp.o
+
+practice/打印图形/Triangle.i: practice/打印图形/Triangle.cpp.i
+
+.PHONY : practice/打印图形/Triangle.i
+
+# target to preprocess a source file
+practice/打印图形/Triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.i
+.PHONY : practice/打印图形/Triangle.cpp.i
+
+practice/打印图形/Triangle.s: practice/打印图形/Triangle.cpp.s
+
+.PHONY : practice/打印图形/Triangle.s
+
+# target to generate assembly for a file
+practice/打印图形/Triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.s
+.PHONY : practice/打印图形/Triangle.cpp.s
+
+practice/打印图形/sb.o: practice/打印图形/sb.cpp.o
+
+.PHONY : practice/打印图形/sb.o
+
+# target to build an object file
+practice/打印图形/sb.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/practice/打印图形/sb.cpp.o
+.PHONY : practice/打印图形/sb.cpp.o
+
+practice/打印图形/sb.i: practice/打印图形/sb.cpp.i
+
+.PHONY : practice/打印图形/sb.i
+
+# target to preprocess a source file
+practice/打印图形/sb.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/practice/打印图形/sb.cpp.i
+.PHONY : practice/打印图形/sb.cpp.i
+
+practice/打印图形/sb.s: practice/打印图形/sb.cpp.s
+
+.PHONY : practice/打印图形/sb.s
+
+# target to generate assembly for a file
+practice/打印图形/sb.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/practice/打印图形/sb.cpp.s
+.PHONY : practice/打印图形/sb.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -362,6 +416,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... practice/打印图形/Triangle.o"
+	@echo "... practice/打印图形/Triangle.i"
+	@echo "... practice/打印图形/Triangle.s"
+	@echo "... practice/打印图形/sb.o"
+	@echo "... practice/打印图形/sb.i"
+	@echo "... practice/打印图形/sb.s"
 .PHONY : help
 
 

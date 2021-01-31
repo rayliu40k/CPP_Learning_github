@@ -168,6 +168,32 @@ CMakeFiles/CPP_Learning_github.dir/grammar/Loop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Learning_github.dir/grammar/Loop.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Loop.cpp -o CMakeFiles/CPP_Learning_github.dir/grammar/Loop.cpp.s
 
+CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.o: CMakeFiles/CPP_Learning_github.dir/flags.make
+CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.o: ../practice/打印图形/Triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.o -c /Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/打印图形/Triangle.cpp
+
+CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/打印图形/Triangle.cpp > CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.i
+
+CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/打印图形/Triangle.cpp -o CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.s
+
+CMakeFiles/CPP_Learning_github.dir/practice/打印图形/sb.cpp.o: CMakeFiles/CPP_Learning_github.dir/flags.make
+CMakeFiles/CPP_Learning_github.dir/practice/打印图形/sb.cpp.o: ../practice/打印图形/sb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CPP_Learning_github.dir/practice/打印图形/sb.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP_Learning_github.dir/practice/打印图形/sb.cpp.o -c /Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/打印图形/sb.cpp
+
+CMakeFiles/CPP_Learning_github.dir/practice/打印图形/sb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Learning_github.dir/practice/打印图形/sb.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/打印图形/sb.cpp > CMakeFiles/CPP_Learning_github.dir/practice/打印图形/sb.cpp.i
+
+CMakeFiles/CPP_Learning_github.dir/practice/打印图形/sb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Learning_github.dir/practice/打印图形/sb.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/打印图形/sb.cpp -o CMakeFiles/CPP_Learning_github.dir/practice/打印图形/sb.cpp.s
+
 # Object files for target CPP_Learning_github
 CPP_Learning_github_OBJECTS = \
 "CMakeFiles/CPP_Learning_github.dir/main.cpp.o" \
@@ -176,7 +202,9 @@ CPP_Learning_github_OBJECTS = \
 "CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.o" \
 "CMakeFiles/CPP_Learning_github.dir/grammar/Constant.cpp.o" \
 "CMakeFiles/CPP_Learning_github.dir/grammar/Condition.cpp.o" \
-"CMakeFiles/CPP_Learning_github.dir/grammar/Loop.cpp.o"
+"CMakeFiles/CPP_Learning_github.dir/grammar/Loop.cpp.o" \
+"CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.o" \
+"CMakeFiles/CPP_Learning_github.dir/practice/打印图形/sb.cpp.o"
 
 # External object files for target CPP_Learning_github
 CPP_Learning_github_EXTERNAL_OBJECTS =
@@ -188,9 +216,11 @@ CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.o
 CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/grammar/Constant.cpp.o
 CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/grammar/Condition.cpp.o
 CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/grammar/Loop.cpp.o
+CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.o
+CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/practice/打印图形/sb.cpp.o
 CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/build.make
 CPP_Learning_github: CMakeFiles/CPP_Learning_github.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CPP_Learning_github"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable CPP_Learning_github"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CPP_Learning_github.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

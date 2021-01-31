@@ -119,6 +119,18 @@
 		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/main.cpp">
 			<Option target="CPP_Learning_github"/>
 		</Unit>
+		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/打印图形/Triangle.cpp">
+			<Option target="CPP_Learning_github"/>
+		</Unit>
+		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/打印图形/Triangle.h">
+			<Option target="CPP_Learning_github"/>
+		</Unit>
+		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/打印图形/sb.cpp">
+			<Option target="CPP_Learning_github"/>
+		</Unit>
+		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/打印图形/sb.h">
+			<Option target="CPP_Learning_github"/>
+		</Unit>
 		<Unit filename="/Users/Rayliu40k/CLionProjects/CPP_Learning_github/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

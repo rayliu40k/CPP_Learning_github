@@ -5,7 +5,8 @@
 #include "grammar/Constant.h"
 #include "grammar/Condition.h"
 #include "grammar/Loop.h"
-
+#include "practice/打印图形/Triangle.h"
+#include "practice/打印图形/sb.h"
 /**
  * 本地函数
  */
@@ -49,6 +50,12 @@ int main() {
     loop1();
     //loop2();
     //forever();
+
+    sb();
+
+    for(;;){
+        printTriangle();
+    }
 
     return 0;
 }
