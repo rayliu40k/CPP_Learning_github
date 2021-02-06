@@ -13,6 +13,9 @@ CMakeFiles/CPP_Learning_github.dir/grammar/Function.cpp.o: ../grammar/Function.h
 CMakeFiles/CPP_Learning_github.dir/grammar/Loop.cpp.o: ../grammar/Loop.cpp
 CMakeFiles/CPP_Learning_github.dir/grammar/Loop.cpp.o: ../grammar/Loop.h
 
+CMakeFiles/CPP_Learning_github.dir/grammar/Printf.cpp.o: ../grammar/Printf.cpp
+CMakeFiles/CPP_Learning_github.dir/grammar/Printf.cpp.o: ../grammar/Printf.h
+
 CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.o: ../grammar/Range.cpp
 CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.o: ../grammar/Range.h
 
@@ -23,6 +26,7 @@ CMakeFiles/CPP_Learning_github.dir/main.cpp.o: ../grammar/Condition.h
 CMakeFiles/CPP_Learning_github.dir/main.cpp.o: ../grammar/Constant.h
 CMakeFiles/CPP_Learning_github.dir/main.cpp.o: ../grammar/Function.h
 CMakeFiles/CPP_Learning_github.dir/main.cpp.o: ../grammar/Loop.h
+CMakeFiles/CPP_Learning_github.dir/main.cpp.o: ../grammar/Printf.h
 CMakeFiles/CPP_Learning_github.dir/main.cpp.o: ../grammar/Range.h
 CMakeFiles/CPP_Learning_github.dir/main.cpp.o: ../grammar/Variables.h
 CMakeFiles/CPP_Learning_github.dir/main.cpp.o: ../main.cpp

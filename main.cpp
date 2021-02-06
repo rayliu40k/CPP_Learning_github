@@ -5,8 +5,10 @@
 #include "grammar/Constant.h"
 #include "grammar/Condition.h"
 #include "grammar/Loop.h"
+#include "grammar/Printf.h"
 #include "practice/打印图形/Triangle.h"
 #include "practice/打印图形/sb.h"
+
 /**
  * 本地函数
  */
@@ -31,7 +33,8 @@ int main() {
 
     //函数
     int a = 25, b = 68;
-    int num = max(a, b);    cout << "a和b中较大数为" << num << endl;
+    int num = max(a, b);
+    cout << "a和b中较大数为" << num << endl;
 
 
     //常量
@@ -53,9 +56,11 @@ int main() {
 
     sb();
 
-    for(;;){
-        printTriangle();
-    }
+//    for (;;) {
+//        printTriangle();
+//    }
+
+    printf();
 
     return 0;
 }

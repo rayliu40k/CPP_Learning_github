@@ -251,6 +251,33 @@ grammar/Loop.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Loop.cpp.s
 .PHONY : grammar/Loop.cpp.s
 
+grammar/Printf.o: grammar/Printf.cpp.o
+
+.PHONY : grammar/Printf.o
+
+# target to build an object file
+grammar/Printf.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Printf.cpp.o
+.PHONY : grammar/Printf.cpp.o
+
+grammar/Printf.i: grammar/Printf.cpp.i
+
+.PHONY : grammar/Printf.i
+
+# target to preprocess a source file
+grammar/Printf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Printf.cpp.i
+.PHONY : grammar/Printf.cpp.i
+
+grammar/Printf.s: grammar/Printf.cpp.s
+
+.PHONY : grammar/Printf.s
+
+# target to generate assembly for a file
+grammar/Printf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/grammar/Printf.cpp.s
+.PHONY : grammar/Printf.cpp.s
+
 grammar/Range.o: grammar/Range.cpp.o
 
 .PHONY : grammar/Range.o
@@ -407,6 +434,9 @@ help:
 	@echo "... grammar/Loop.o"
 	@echo "... grammar/Loop.i"
 	@echo "... grammar/Loop.s"
+	@echo "... grammar/Printf.o"
+	@echo "... grammar/Printf.i"
+	@echo "... grammar/Printf.s"
 	@echo "... grammar/Range.o"
 	@echo "... grammar/Range.i"
 	@echo "... grammar/Range.s"
