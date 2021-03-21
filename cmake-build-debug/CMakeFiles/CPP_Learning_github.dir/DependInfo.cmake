@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Range.cpp" "/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles/CPP_Learning_github.dir/grammar/Range.cpp.o"
   "/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Variables.cpp" "/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles/CPP_Learning_github.dir/grammar/Variables.cpp.o"
   "/Users/Rayliu40k/CLionProjects/CPP_Learning_github/main.cpp" "/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles/CPP_Learning_github.dir/main.cpp.o"
+  "/Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/CCF/P1001.cpp" "/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles/CPP_Learning_github.dir/practice/CCF/P1001.cpp.o"
   "/Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/打印图形/Triangle.cpp" "/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.o"
   "/Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/打印图形/sb.cpp" "/Users/Rayliu40k/CLionProjects/CPP_Learning_github/cmake-build-debug/CMakeFiles/CPP_Learning_github.dir/practice/打印图形/sb.cpp.o"
   )

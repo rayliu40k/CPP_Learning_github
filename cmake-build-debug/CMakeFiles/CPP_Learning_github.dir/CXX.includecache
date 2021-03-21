@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Printf.cpp
-Printf.h
-/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Printf.h
+/Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/CCF/P1001.cpp
+P1001.h
+/Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/CCF/P1001.h
 
-/Users/Rayliu40k/CLionProjects/CPP_Learning_github/grammar/Printf.h
+/Users/Rayliu40k/CLionProjects/CPP_Learning_github/practice/CCF/P1001.h
 iostream
 -
 iomanip
+-
+string
 -
 

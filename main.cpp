@@ -8,6 +8,7 @@
 #include "grammar/Printf.h"
 #include "practice/打印图形/Triangle.h"
 #include "practice/打印图形/sb.h"
+#include "practice/CCF/P1001.h"
 
 /**
  * 本地函数
@@ -61,6 +62,8 @@ int main() {
 //    }
 
     printf();
+
+    P1001();
 
     return 0;
 }

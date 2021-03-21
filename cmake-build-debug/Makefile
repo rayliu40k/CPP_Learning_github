@@ -359,6 +359,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+practice/CCF/P1001.o: practice/CCF/P1001.cpp.o
+
+.PHONY : practice/CCF/P1001.o
+
+# target to build an object file
+practice/CCF/P1001.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/practice/CCF/P1001.cpp.o
+.PHONY : practice/CCF/P1001.cpp.o
+
+practice/CCF/P1001.i: practice/CCF/P1001.cpp.i
+
+.PHONY : practice/CCF/P1001.i
+
+# target to preprocess a source file
+practice/CCF/P1001.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/practice/CCF/P1001.cpp.i
+.PHONY : practice/CCF/P1001.cpp.i
+
+practice/CCF/P1001.s: practice/CCF/P1001.cpp.s
+
+.PHONY : practice/CCF/P1001.s
+
+# target to generate assembly for a file
+practice/CCF/P1001.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Learning_github.dir/build.make CMakeFiles/CPP_Learning_github.dir/practice/CCF/P1001.cpp.s
+.PHONY : practice/CCF/P1001.cpp.s
+
 practice/打印图形/Triangle.o: practice/打印图形/Triangle.cpp.o
 
 .PHONY : practice/打印图形/Triangle.o
@@ -446,6 +473,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... practice/CCF/P1001.o"
+	@echo "... practice/CCF/P1001.i"
+	@echo "... practice/CCF/P1001.s"
 	@echo "... practice/打印图形/Triangle.o"
 	@echo "... practice/打印图形/Triangle.i"
 	@echo "... practice/打印图形/Triangle.s"
