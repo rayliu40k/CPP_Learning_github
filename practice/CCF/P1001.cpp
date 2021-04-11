@@ -10,5 +10,5 @@ void P1001() {
     cin >> F;
     float C;
     C = (F - 32) * 5 / 9;
-    cout << "Number is:" <<  fixed << setprecision(4) << C ;
+    cout << "Number is:" << fixed << setprecision(4) << C << endl;
 }

@@ -31,11 +31,15 @@ CMakeFiles/CPP_Learning_github.dir/main.cpp.o: ../grammar/Range.h
 CMakeFiles/CPP_Learning_github.dir/main.cpp.o: ../grammar/Variables.h
 CMakeFiles/CPP_Learning_github.dir/main.cpp.o: ../main.cpp
 CMakeFiles/CPP_Learning_github.dir/main.cpp.o: ../practice/CCF/P1001.h
+CMakeFiles/CPP_Learning_github.dir/main.cpp.o: ../practice/CCF/P1002.h
 CMakeFiles/CPP_Learning_github.dir/main.cpp.o: ../practice/打印图形/Triangle.h
 CMakeFiles/CPP_Learning_github.dir/main.cpp.o: ../practice/打印图形/sb.h
 
 CMakeFiles/CPP_Learning_github.dir/practice/CCF/P1001.cpp.o: ../practice/CCF/P1001.cpp
 CMakeFiles/CPP_Learning_github.dir/practice/CCF/P1001.cpp.o: ../practice/CCF/P1001.h
+
+CMakeFiles/CPP_Learning_github.dir/practice/CCF/P1002.cpp.o: ../practice/CCF/P1002.cpp
+CMakeFiles/CPP_Learning_github.dir/practice/CCF/P1002.cpp.o: ../practice/CCF/P1002.h
 
 CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.o: ../practice/打印图形/Triangle.cpp
 CMakeFiles/CPP_Learning_github.dir/practice/打印图形/Triangle.cpp.o: ../practice/打印图形/Triangle.h

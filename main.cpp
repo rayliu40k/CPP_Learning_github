@@ -9,6 +9,7 @@
 #include "practice/打印图形/Triangle.h"
 #include "practice/打印图形/sb.h"
 #include "practice/CCF/P1001.h"
+#include "practice/CCF/P1002.h"
 
 /**
  * 本地函数
@@ -64,6 +65,11 @@ int main() {
     printf();
 
     P1001();
+
+    cout << "Please input number:" << endl;
+    int i;
+    cin >> i;
+    cout << P1002(i);
 
     return 0;
 }
